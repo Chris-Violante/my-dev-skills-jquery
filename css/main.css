@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+}
+h1 {
+    background-color: rgb(147,196,125);
+    padding: 10px 10px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+#addSkill {
+    width: 150px;
+    border: 3px solid rgb(147,196,125);
+    margin: 5px 5px;
+    padding: 6px 10px;
+    font-size: 15px;
+    color: rgb(147,196,125);
+}
+input {
+    width: 240px;
+    border: 3px solid rgb(147,196,125);
+    margin: 5px 5px;
+    padding: 6px 10px;
+    font-size: 15px;
+    color: rgb(147,196,125);
+}
+
+ul {
+    color: rgb(245,167,89);
+    list-style: none;
+}
+
+.remove {
+    background-color: red;
+    color: white;
+}
